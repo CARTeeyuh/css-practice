@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.segment1 {
+    padding-left: 450px;
+    padding-right: 450px;
+    background-color: #1F2937;
+    padding-bottom: 200px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-justify: center;
+    align-content: center;
+    gap: 475px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.h-links {
+    margin-top: 20px;
+}
+
+
+.link-1, .link-2, .link-3 {
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 500px;
+}
+
+.intro {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.image {
+    position: absolute;
+    background-color: grey;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+
+.sign-up-button {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    text-decoration: bold;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.header-2 {
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+}
+
+.invis1, .invis2, .invis3, .invis4 {
+    border-color: blue;
+    border: 10px;
+}
